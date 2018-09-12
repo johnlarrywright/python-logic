@@ -16,6 +16,15 @@ def weather_checker(weather_condition):
 weather_checker(weather)
 
 #2 Declare a variable named score and assign it a number value of 70. Next create a conditional statement that will check the score and print 'You pass!' if the score is 70 and above and print 'Study harder!' if the score is less than 70.
+score = 70
+
+def game(game_point):
+    if (game_point >= 70):
+        print('You pass!')
+    
+    else :
+        print('Study harder')
+game(score)
 
 #3. Declare a variable named download_speed and assign it a data value of 50. Next create a conditional statement that will check the download speed and print the following based on the condition:
 
