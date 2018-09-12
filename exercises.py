@@ -19,7 +19,7 @@ weather_checker(weather)
 score = 70
 
 def game(game_point):
-    if (game_point >= 70):
+    if (game_point < 70):
         print('You pass!')
     
     else :
