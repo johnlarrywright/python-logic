@@ -27,6 +27,17 @@ def game(game_point):
 game(score)
 
 #3. Declare a variable named download_speed and assign it a data value of 50. Next create a conditional statement that will check the download speed and print the following based on the condition:
+download_speed = 50
+
+def megaHz(ghz):
+    if (ghz <= 50):
+        print('Basic Package')
+    elif (ghz) <=100:
+        print('Premium Package')
+    else:
+        print('Platium Package')
+megaHz(download_speed)
+
 
 # <= 50: 'Basic Package'
 # <=100: 'Premium Package'
