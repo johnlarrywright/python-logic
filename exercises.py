@@ -7,6 +7,13 @@
 # Please commit and push your code after each completed exercise.
 
 #1. Declare a variable named weather and assign it a string value of 'rain'. Next create a conditional statement that will check the weather and print 'Bring an umbrella' if weather equals 'rain'.
+weather = 'rain'
+
+def weather_checker(weather_condition):
+    if (weather_condition == 'rain'):
+        print('Bring an umbrella')
+
+weather_checker(weather)
 
 #2 Declare a variable named score and assign it a number value of 70. Next create a conditional statement that will check the score and print 'You pass!' if the score is 70 and above and print 'Study harder!' if the score is less than 70.
 
